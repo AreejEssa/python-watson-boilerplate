@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: eu-de.mybluemix.net
+  name: python-boilerplate-watson
+  host: python-boilerplate-watson
+  disk_quota: 1024M
+  buildpack: python_buildpack
+  services:
+  - Personality Insights-h5
